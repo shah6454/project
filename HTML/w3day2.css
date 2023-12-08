@@ -1,0 +1,28 @@
+body{
+    background-color: aquamarine;
+
+}div{
+    float: left;
+}
+.div1{
+    background-color: bisque;
+    height: 200px;
+    width: 50%;
+}
+.div2{
+    background-color: burlywood;
+    height: 200px;
+    width: 50%;
+}
+@media (min-width:600px) and (max-widht:800px)
+{
+    body{
+        background-color: brown;
+    }
+h1{
+    font-size: 40px;
+}
+.div{
+    clear: both;
+}
+}

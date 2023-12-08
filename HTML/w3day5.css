@@ -1,0 +1,44 @@
+.div1{
+    margin: 100px 20px 50px 30px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid;
+    background-color: cornflowerblue;
+    box-shadow: 5px 5px 10px 1px red inset;
+}
+p{
+text-shadow: 1px 1px 2px green;
+font-size: 40px;
+}
+div2{
+    background-color: darkseagreen;
+    height: 40px;
+    position: relative;
+    top: 30px;
+    transition: z-index 0.3 ease;
+}
+div3{
+    background-color: cornflowerblue;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    transition: z-index 0.3 ease;
+}
+.div4{
+    background-color: darkslateblue;
+    height: 40px;
+    position: relative;
+    top: 20px;
+    transition: z-index 0.3 ease;
+    padding-top: 10px;
+}
+
+.div2:hover{
+    z-index: 2;
+}
+.div3:hover{
+    z-index: 2;
+}
+.div4:hover{
+    z-index: 2;
+}

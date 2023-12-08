@@ -1,0 +1,83 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clothing Store</title>
+</head>
+<body>
+
+    <header>
+        <h1>Clothing Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Clothing Store!</h2>
+        <p>Explore the latest trends in fashion.</p>
+    </section>
+
+    <section id="products">
+        <h2>Featured Products</h2>
+        <div class="product">
+            <img src="product1.jpg" alt="Product 1">
+            <h3>Stylish T-Shirt</h3>
+            <p class="price">$19.99</p>
+            <a href="product1.html">View Details</a>
+        </div>
+
+        <div class="product">
+            <img src="product2.jpg" alt="Product 2">
+            <h3>Comfort Jeans</h3>
+            <p class="price">$29.99</p>
+            <a href="product2.html">View Details</a>
+        </div>
+        <!-- Add more product entries as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Clothing Store</p>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Stylish T-Shirt - Clothing Store</title>
+</head>
+<body>
+
+    <header>
+        <h1>Clothing Store</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#products">Products</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="product-details">
+        <img src="product1.jpg" alt="Product 1">
+        <h2>Stylish T-Shirt</h2>
+        <p class="price">$19.99</p>
+        <p class="description">This stylish t-shirt is perfect for casual wear. Made from high-quality cotton for comfort.</p>
+        <button>Add to Cart</button>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Clothing Store</p>
+    </footer>
+
+</body>
+</html>

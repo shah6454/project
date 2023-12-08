@@ -1,0 +1,20 @@
+* {
+     background-color: antiquewhite;
+}
+
+.class {
+    color: brown;
+}
+
+#id {
+    color:blue;
+}
+
+h1,
+h2 {
+    color: blueviolet;
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: cadetblue;
+}

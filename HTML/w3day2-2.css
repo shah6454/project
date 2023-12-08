@@ -1,0 +1,58 @@
+/* Create a simple Navigation bar
+ 
+when you screen size become smaller than 700px, the tabs should display in different line
+*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  .employers{
+    background-color: brown;
+    height: 100px;
+    width: 50%;
+}
+.Candidates{
+  background-color: bisque;
+  height: 100px;
+  width: 50%;
+}
+.About us{
+  background-color: blanchedalmond;
+  height: 100px;
+  width: 50%;
+}
+.Insights{
+  background-color: bisque;
+  height: 100px;
+  width: 50%;
+}
+.Contact{
+  background-color: bisque;
+  height: 100px;
+  width: 50%;
+}
+  /* Add a media query for screens smaller than 700px */
+  @media (max-width: 700px) {
+    .navbar a {
+      float: none;
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+  
+  

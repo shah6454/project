@@ -1,0 +1,43 @@
+table,tr,td{
+    clear:both;
+    border: 1px solid;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+tr:nth-child(2n+2)
+{
+    background-color: brown;
+}
+tr:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+.h1::after{
+    content:"added using css";
+}
+.h1::before{
+    content: url(/image/cake.ico) ;
+}
+.p3{
+    color: aquamarine;
+    position: relative;
+   
+}
+.p3::after{
+    content:"" ;
+    position: absolute;
+    top: 1em;
+    left: 0%;
+    width: 0px;
+    background-color: blanchedalmond;
+    height: 2px;
+    z-index: -1;
+    margin-top: 5px;
+    transition: width 1s;
+
+}
+.p3:hover::after{
+    opacity: 0;
+}
